@@ -60,7 +60,7 @@
     "dev": "ray develop",
     "lint": "ray lint",
     "fix-lint": "ray lint --fix",
-    "publish": "npx @raycast/api@latest publish",
+    "publish": "ray publish",
     "prepublishOnly": "echo \"\\n\\nThis extension is published to the Raycast Store, not to npm. Run \\`npm run publish\\` instead.\\n\\n\" && exit 1"
   },
   "dependencies": {
